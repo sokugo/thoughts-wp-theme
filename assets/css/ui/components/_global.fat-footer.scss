@@ -1,0 +1,46 @@
+.fat-footer {
+    background: #fafafa;
+    padding-bottom: 60px;
+    padding-top: 60px;
+
+    h4 {
+        @include font-size(15px, false);
+        font-weight: normal;
+        position: relative;
+        margin-bottom: 43px;
+
+        &:after {
+            content: '';
+            border-top: 3px solid #eee;
+            width: 60px;
+            position: absolute;
+            bottom: -20px;
+            left: 0;
+        }
+    }
+
+    &__social {
+        @include media-query(palm) {
+            text-align: center;
+        }
+
+        a {
+            @include font-size(15px, false);
+            color: #ddd;
+
+            &:hover {
+                color: #aaa;
+            }
+        }
+
+        @include media-query(lap-and-up) {
+            max-width: 55px;
+            display: inline-block;
+            float: right;
+        }
+    }
+}
+
+.comments + .wrapper + .fat-footer {
+    margin-top: -60px;
+}

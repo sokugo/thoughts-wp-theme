@@ -1,0 +1,16 @@
+/*------------------------------------*\
+    #FLAG
+\*------------------------------------*/
+
+$inuit-flag-gutter:             $inuit-base-spacing-unit;
+$inuit-flag-gutter--small:      halve($inuit-flag-gutter);
+$inuit-flag-gutter--large:      double($inuit-flag-gutter);
+
+$inuit-enable-flag--small:      false;
+$inuit-enable-flag--large:      false;
+$inuit-enable-flag--rev:        false;
+$inuit-enable-flag--flush:      false;
+$inuit-enable-flag--top:        false;
+$inuit-enable-flag--bottom:     false;
+$inuit-enable-flag--responsive: false;
+$inuit-flag-collapse-at:        720px;

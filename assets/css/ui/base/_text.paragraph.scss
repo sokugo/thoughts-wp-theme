@@ -1,0 +1,8 @@
+.milli {
+    @include font-size($inuit-milli-size, false);
+}
+
+.micro {
+    @include font-size($inuit-micro-size, false);
+}
+

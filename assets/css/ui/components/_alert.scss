@@ -1,0 +1,15 @@
+.alert {
+    @include font-size(14px, 24px);
+    padding: 11px 20px;
+    border-radius: 3px;
+
+    &--success {
+        background: #d7f1d7;
+        color: #578e57;
+    }
+
+    &--warn {
+        background: #ffe88a;
+        color: #8e7030;
+    }
+}

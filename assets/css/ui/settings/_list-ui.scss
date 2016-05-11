@@ -1,0 +1,14 @@
+/*------------------------------------*\
+    #LIST-UI
+\*------------------------------------*/
+
+$inuit-list-ui-padding:         $inuit-base-spacing-unit !default;
+$inuit-list-ui-padding--small:  halve($inuit-list-ui-padding) !default;
+$inuit-list-ui-padding--large:  double($inuit-list-ui-padding) !default;
+
+$inuit-list-ui-border-width:    1px !default;
+$inuit-list-ui-border-style:    solid !default;
+$inuit-list-ui-border-color:    #ccc !default;
+
+$inuit-enable-list-ui--small:   false !default;
+$inuit-enable-list-ui--large:   false !default;

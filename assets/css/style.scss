@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+// We import types of file in the following order:
+//
+// Settings -- Sass vars, etc.
+// Tools -- Functions and mixins.
+// Generic -- Generic, high-level styling, like resets, etc.
+// Base -- Unclasses HTML elements (e.g. `h2`, `ul`).
+// Object -- Objects and abstractions.
+// Components -- Your designed UI elements (inuitcss includes none of these).
+// Trumps -- Overrides and helper classes.
+//
+// These shearing layers are what make inuitcss so scalable.
+
+
+/* Settings & Tools
+   ========================================================================== */
+
+@import "bower_components/inuit-defaults/settings.defaults";
+@import "bower_components/inuit-functions/tools.functions";
+@import "bower_components/inuit-mixins/tools.mixins";
+
+@import "ui/tools/aliases";
+@import "ui/tools/mixins";
+@import "ui/settings/box";
+@import "ui/settings/buttons";
+@import "ui/settings/colors";
+@import "ui/settings/defaults";
+@import "ui/settings/flag";
+@import "ui/settings/layout";
+@import "ui/settings/list-ui";
+@import "ui/settings/list-block";
+@import "ui/settings/media";
+@import "ui/settings/responsive";
+@import "ui/settings/spacing";
+@import "ui/settings/tables";
+@import "ui/settings/widths";
+
+
+/* Inuit
+   ========================================================================== */
+
+@import "bower_components/inuit-normalize/generic.normalize";
+@import "bower_components/inuit-reset/generic.reset";
+@import "bower_components/inuit-box-sizing/generic.box-sizing";
+@import "bower_components/inuit-box/objects.box";
+@import "bower_components/inuit-buttons/objects.buttons";
+@import "bower_components/inuit-clearfix/trumps.clearfix";
+@import "bower_components/inuit-flag/objects.flag";
+@import "bower_components/inuit-headings/base.headings";
+@import "bower_components/inuit-images/base.images";
+@import "bower_components/inuit-layout/objects.layout";
+@import "bower_components/inuit-list-bare/objects.list-bare";
+@import "bower_components/inuit-list-block/objects.list-block";
+@import "bower_components/inuit-list-inline/objects.list-inline";
+@import "bower_components/inuit-list-ui/objects.list-ui";
+@import "bower_components/inuit-lists/base.lists";
+@import "bower_components/inuit-media/objects.media";
+@import "bower_components/inuit-page/base.page";
+@import "bower_components/inuit-paragraphs/base.paragraphs";
+@import "bower_components/inuit-print/trumps.print";
+@import "bower_components/inuit-responsive-settings/settings.responsive";
+@import "bower_components/inuit-responsive-tools/tools.responsive";
+@import "bower_components/inuit-shared/generic.shared";
+@import "bower_components/inuit-tables/objects.tables";
+@import "bower_components/inuit-tabs/objects.tabs";
+
+
+/* Elements
+   ========================================================================== */
+
+@import "ui/base/buttons";
+@import "ui/base/form.input";
+@import "ui/base/image";
+@import "ui/base/text.headings";
+@import "ui/base/text.hr";
+@import "ui/base/text.link";
+@import "ui/base/text.paragraph";
+
+
+/* Objects
+   ========================================================================== */
+
+@import "ui/objects/social";
+@import "ui/objects/split";
+
+
+/* Components
+   ========================================================================== */
+
+@import "ui/components/layout";
+@import "ui/components/layout.wrapper";
+@import "ui/components/nav.primary";
+@import "ui/components/nav.categories";
+@import "ui/components/form.search";
+@import "ui/components/form.reply";
+@import "ui/components/global.page-head";
+@import "ui/components/post";
+@import "ui/components/single-comment";
+@import "ui/components/comments-thread";
+@import "ui/components/alert";
+@import "ui/components/image.avatar";
+@import "ui/components/nav.pagination";
+@import "ui/components/list.posts";
+@import "ui/components/text.pullquote";
+@import "ui/components/vendor.popup";
+@import "ui/components/global.fat-footer";
+@import "ui/components/global.footer";
+@import "ui/components/page.404";
+
+
+
+/* Generic
+   ========================================================================== */
+
+@import "ui/generic/html";
+@import "ui/generic/wordpress";
+
+
+/* Trumps
+   ========================================================================== */
+
+@import "bower_components/inuit-widths/trumps.widths";
+@import "bower_components/inuit-spacing/trumps.spacing";
+@import "bower_components/inuit-spacing-responsive/trumps.spacing-responsive";
+@import "bower_components/inuit-widths-responsive/trumps.widths-responsive";
+@import "ui/trumps/text";
+@import "ui/trumps/color";

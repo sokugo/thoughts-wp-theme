@@ -1,0 +1,17 @@
+.footer {
+    @include font-size(12px, false);
+    background: #f5f5f5;
+    color: #aaa;
+    padding: 26px 0;
+
+    @include media-query(lap-and-up) {
+//        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+
+    a {
+        color: #888;
+    }
+}

@@ -1,0 +1,115 @@
+/*------------------------------------*\
+    #BUTTONS
+\*------------------------------------*/
+
+.btn {
+    font-weight: bold;
+    -webkit-transition: background 0.333s ease, box-shadow .25s ease;
+       -moz-transition: background 0.333s ease, box-shadow .25s ease;
+            transition: background 0.333s ease, box-shadow .25s ease;
+}
+
+.wpcf7-submit {
+    @extend .btn;
+}
+
+[id="submit"],
+.wpcf7-submit,
+.btn--primary {
+    @include font-size(14px, 21px);
+    color: #fff;
+    border: none;
+    background: #4f94cb;
+    padding: 9px 24px;
+    font-weight: bold;
+
+    &:hover,
+    &:focus {
+        box-shadow: inset 0 -8em 0 rgba(255,255,255, .2);
+        color: #fff;
+        outline: none;
+    }
+
+    &:active {
+        color: #fff;
+        box-shadow: inset 0 -8em 0 rgba(0,0,0, .15);
+        outline: none;
+    }
+}
+
+.btn--small {
+    padding: 3px 24px;
+}
+
+.btn--like {
+    @include font-size(14px, false);
+    color: #fff;
+    border: 1px solid #e74c3c;
+    background: #e74c3c;
+    font-weight: bold;
+    padding: 4px 8px;
+    margin-right: 3px;
+
+    &.is-liked .fa {
+        &:before {
+            content: '\f00c';
+        }
+    }
+
+    &:hover,
+    &:focus {
+        color: #fff;
+        background: lighten(#e74c3c, 5%);
+    }
+
+    &:active {
+        color: #fff;
+        background: darken(#e74c3c, 5%);
+    }
+}
+
+.btn--facebook {
+    @include font-size(14px, false);
+    color: #fff;
+    border: 1px solid #6a80be;
+    background: #6a80be;
+    font-weight: bold;
+    padding: 4px 8px;
+    margin-right: 3px;
+
+    &:hover,
+    &:focus {
+        color: #fff;
+        background: lighten(#6a80be, 5%);
+    }
+
+    &:active {
+        color: #fff;
+        background: darken(#6a80be, 5%);
+    }
+}
+
+.btn--twitter {
+    @include font-size(14px, false);
+    color: #fff;
+    border: 1px solid #35a2f9;
+    background: #35a2f9;
+    font-weight: bold;
+    padding: 4px 8px;
+
+    &:hover,
+    &:focus {
+        color: #fff;
+        background: lighten(#35a2f9, 5%);
+    }
+
+    &:active {
+        color: #fff;
+        background: darken(#35a2f9, 5%);
+    }
+}
+
+[id="submit"] {
+    @extend .btn;
+    @extend .btn--primary;
+}

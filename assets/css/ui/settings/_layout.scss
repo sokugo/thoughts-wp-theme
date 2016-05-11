@@ -1,0 +1,17 @@
+/*------------------------------------*\
+    #LAYOUT
+\*------------------------------------*/
+
+$inuit-layout-gutter:           20px;
+$inuit-layout-gutter--small:    halve($inuit-layout-gutter);
+$inuit-layout-gutter--large:    double($inuit-layout-gutter);
+
+$inuit-enable-layout--small:    false;
+$inuit-enable-layout--large:    false;
+$inuit-enable-layout--flush:    false;
+$inuit-enable-layout--rev:      false;
+$inuit-enable-layout--middle:   false;
+$inuit-enable-layout--bottom:   false;
+$inuit-enable-layout--right:    false;
+$inuit-enable-layout--center:   false;
+

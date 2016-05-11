@@ -1,0 +1,11 @@
+.categories-nav {
+    @include font-size(16px, 32px);
+
+    a {
+        color: #fff;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

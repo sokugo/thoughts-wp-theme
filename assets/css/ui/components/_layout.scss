@@ -1,0 +1,7 @@
+.layout--force {
+    @extend %clearfix;
+
+    .layout__item {
+        float: left;
+    }
+}

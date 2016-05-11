@@ -1,0 +1,6 @@
+#!/bin/sh
+
+sass --watch style.scss:style.css --style compressed
+#sass --watch style.scss:style.css --style expanded
+
+exit 0

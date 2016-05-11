@@ -1,0 +1,14 @@
+/*------------------------------------*\
+    #MEDIA
+\*------------------------------------*/
+
+$inuit-media-gutter:                $inuit-base-spacing-unit;
+$inuit-media-gutter--small:         halve($inuit-media-gutter);
+$inuit-media-gutter--large:         double($inuit-media-gutter);
+
+$inuit-enable-media--small:         true;
+$inuit-enable-media--large:         false;
+$inuit-enable-media--rev:           false;
+$inuit-enable-media--flush:         false;
+$inuit-enable-media--responsive:    false;
+$inuit-media-collapse-at:           720px;

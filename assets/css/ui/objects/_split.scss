@@ -1,0 +1,35 @@
+.split {
+    @extend %clearfix;
+    text-align: right;
+
+    &__title {
+        float: left;
+        text-align: left;
+    }
+}
+
+.split--responsive {
+    @include media-query(palm) {
+        text-align: center;
+
+        .split__title {
+            display: block;
+            text-align: center;
+            margin-bottom: $spacing-unit--small;
+            float: none;
+        }
+    }
+}
+
+.split--responsive-portable {
+    @include media-query(portable) {
+        text-align: center;
+
+        .split__title {
+            display: block;
+            text-align: center;
+            margin-bottom: $spacing-unit--small;
+            float: none;
+        }
+    }
+}

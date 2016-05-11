@@ -1,0 +1,9 @@
+a {
+    color: #4f94cb;
+    text-decoration: none;
+
+    &:focus,
+    &:hover {
+        text-decoration: underline;
+    }
+}

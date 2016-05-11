@@ -1,0 +1,18 @@
+/*------------------------------------*\
+    #BUTTONS
+\*------------------------------------*/
+
+$inuit-btn-padding:         halve($inuit-base-spacing-unit);
+$inuit-btn-padding--small:  halve($inuit-btn-padding);
+$inuit-btn-padding--large:  double($inuit-btn-padding);
+$inuit-btn-background:      #4a8ec2;
+$inuit-btn-color:           #fff;
+$inuit-btn-border-width:    1px;
+$inuit-btn-border-style:    solid;
+$inuit-btn-border-color:    $inuit-btn-background;
+$inuit-btn-radius:          3px;
+
+$inuit-enable-btn--small:   false;
+$inuit-enable-btn--large:   false;
+$inuit-enable-btn--full:    false;
+$inuit-enable-btn--pill:    false;

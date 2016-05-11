@@ -1,0 +1,10 @@
+/*------------------------------------*\
+    #BOX
+\*------------------------------------*/
+
+$inuit-box-padding:         $inuit-base-spacing-unit;
+$inuit-box-padding--small:  halve($inuit-box-padding);
+$inuit-box-padding--large:  double($inuit-box-padding);
+
+$inuit-enable-box--small:   false;
+$inuit-enable-box--large:   false;

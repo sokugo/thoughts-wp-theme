@@ -1,0 +1,51 @@
+.page-head {
+    &__section {
+        margin-bottom: 80px;
+    }
+
+    &__blog-name {
+        @include font-size(15px, false);
+        font-family: Roboto, Helvetica, Arial;
+        color: #444;
+        margin-bottom: 0;
+        font-weight: normal;
+        position: relative;
+
+        &:after {
+            content: '';
+            border-top: 3px solid #eee;
+            width: 45%;
+            position: absolute;
+            bottom: -20px;
+        }
+
+        a {
+            color: inherit;
+        }
+    }
+
+    &__blog-desc {
+        @include font-size(30px, 38px);
+        font-weight: 300;
+        color: #444;
+        margin-bottom: 120px;
+    }
+
+    .fa-search {
+        @include font-size(18px, false);
+        position: relative;
+        color: #ddd;
+        z-index: 4;
+
+        &:hover {
+            cursor: pointer;
+            color: #999;
+        }
+
+        &.is-active {
+            &:before {
+                content: '\f00d';
+            }
+        }
+    }
+}

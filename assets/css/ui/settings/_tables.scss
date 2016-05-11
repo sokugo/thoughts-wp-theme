@@ -1,0 +1,19 @@
+/*------------------------------------*\
+    #TABLES
+\*------------------------------------*/
+
+$inuit-table-padding--compact:  quarter($inuit-base-spacing-unit);
+$inuit-table-padding--cosy:     halve($inuit-base-spacing-unit);
+$inuit-table-padding--comfy:    $inuit-base-spacing-unit;
+
+$inuit-table-border-width:      1px;
+$inuit-table-border-style:      solid;
+$inuit-table-border-color:      #ccc;
+
+$inuit-enable-table--fixed:     false;
+$inuit-enable-table--compact:   false;
+$inuit-enable-table--cosy:      false;
+$inuit-enable-table--comfy:     false;
+$inuit-enable-table--cells:     false;
+$inuit-enable-table--rows:      false;
+$inuit-enable-table--columns:   false;

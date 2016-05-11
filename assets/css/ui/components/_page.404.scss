@@ -1,0 +1,8 @@
+.error404 {
+    article {
+        h1 {
+            @include font-size(32px, false);
+            font-weight: bold;
+        }
+    }
+}

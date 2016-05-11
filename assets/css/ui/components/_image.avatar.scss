@@ -1,0 +1,17 @@
+.round-avatars {
+    .avatar {
+        &,
+        img {
+            border-radius: 3em;
+        }
+    }
+}
+
+.avatar {
+    &,
+    img {
+        border-radius: 3px;
+    }
+}
+
+

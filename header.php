@@ -12,15 +12,15 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no">
 	<meta name="description" content="<?php bloginfo( 'description' ); ?>">
 
-	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,900' rel='stylesheet' type='text/css'>
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,900" rel='stylesheet' type='text/css'>
 
 	<?php wp_head(); ?>
 
 	<style>
 		<?php
-			$startColor = theme_option('type-start-color', '#ecd078');
-			$endColor = theme_option('type-end-color', '#c02942');
+			$startColor = theme_option('type-start-color', '#0088f3');
+			$endColor = theme_option('type-end-color', '#0088f3');
 		?>
 
 		.post [rel="gallery"]:after {

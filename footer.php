@@ -24,55 +24,55 @@
 					<div class="fat-footer__social">
 						<ul class="list-bare list-inline">
 							<?php if(theme_option('type-facebook')): ?>
-								<li><a href="http://facebook.com/<?php echo theme_option('type-facebook') ?>/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+								<li><a href="facebook.com/<?php echo theme_option('type-facebook') ?>/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
 							<?php endif ?>
 
 							<?php if(theme_option('type-twitter')):  ?>
-								<li><a href="http://twitter.com/<?php echo theme_option('type-twitter') ?>"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+								<li><a href="twitter.com/<?php echo theme_option('type-twitter') ?>"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
 							<?php endif ?>
 
 							<?php if(theme_option('type-instagram')): ?>
-								<li><a href="http://instagram.com/<?php echo theme_option('type-instagram') ?>"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+								<li><a href="instagram.com/<?php echo theme_option('type-instagram') ?>"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
 							<?php endif ?>
 
 							<?php if(theme_option('type-flickr')):  ?>
-								<li><a href="https://www.flickr.com/photos/<?php echo theme_option('type-flickr') ?>"><i class="fa fa-flickr" aria-hidden="true"></i></a></li>
+								<li><a href="flickr.com/photos/<?php echo theme_option('type-flickr') ?>"><i class="fa fa-flickr" aria-hidden="true"></i></a></li>
 							<?php endif ?>
 
 							<?php if(theme_option('type-linkedin')): ?>
-								<li><a href="http://linkedin.com/in/<?php echo theme_option('type-linkedin') ?>"><i class="fa  fa-linkedin-square"></i></a></li>
+								<li><a href="linkedin.com/in/<?php echo theme_option('type-linkedin') ?>"><i class="fa  fa-linkedin-square"></i></a></li>
 							<?php endif ?>
 
 							<?php if(theme_option('type-dribbble')):  ?>
-								<li><a href="http://dribbble.com/<?php echo theme_option('type-dribbble') ?>"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+								<li><a href="dribbble.com/<?php echo theme_option('type-dribbble') ?>"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
 							<?php endif ?>
 
 							<?php if(theme_option('type-deviantart')): ?>
-								<li><a href="http://<?php echo theme_option('type-deviantart') ?>.deviantart.com"><i class="fa fa-deviantart" aria-hidden="true"></i></a></li>
+								<li><a href="<?php echo theme_option('type-deviantart') ?>.deviantart.com"><i class="fa fa-deviantart" aria-hidden="true"></i></a></li>
 							<?php endif ?>
 
 							<?php if(theme_option('type-reddit')):  ?>
-								<li><a href="http://www.reddit.com/user/<?php echo theme_option('type-reddit') ?>"><i class="fa fa-reddit-square" aria-hidden="true"></i></a></li>
+								<li><a href="www.reddit.com/user/<?php echo theme_option('type-reddit') ?>"><i class="fa fa-reddit-square" aria-hidden="true"></i></a></li>
 							<?php endif ?>
 
 							<?php if(theme_option('type-github')): ?>
-								<li><a href="https://github.com//<?php echo theme_option('type-github') ?>"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
+								<li><a href="github.com//<?php echo theme_option('type-github') ?>"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
 							<?php endif ?>
 
 							<?php if(theme_option('type-behance')):  ?>
-								<li><a href="https://www.behance.net/<?php echo theme_option('type-behance') ?>"><i class="fa fa-behance-square" aria-hidden="true"></i></a></li>
+								<li><a href="behance.net/<?php echo theme_option('type-behance') ?>"><i class="fa fa-behance-square" aria-hidden="true"></i></a></li>
 							<?php endif ?>
 
 							<?php if(theme_option('type-vimeo')): ?>
-								<li><a href="https://www.vimeo.com/<?php echo theme_option('type-vimeo') ?>"><i class="fa fa-vimeo-square" aria-hidden="true"></i></a></li>
+								<li><a href="vimeo.com/<?php echo theme_option('type-vimeo') ?>"><i class="fa fa-vimeo-square" aria-hidden="true"></i></a></li>
 							<?php endif ?>
 
 							<?php if(theme_option('type-pinterest')): ?>
-								<li><a href="https://www.pinterest.com/<?php echo theme_option('type-pinterest') ?>"><i class="fa fa-pinterest-square" aria-hidden="true"></i></a></li>
+								<li><a href="pinterest.com/<?php echo theme_option('type-pinterest') ?>"><i class="fa fa-pinterest-square" aria-hidden="true"></i></a></li>
 							<?php endif ?>
 
 							<?php if(theme_option('type-youtube')): ?>
-								<li><a href="https://www.youtube.com/channel/<?php echo theme_option('type-youtube') ?>"><i class="fa fa-youtube-square" aria-hidden="true"></i></a></li>
+								<li><a href="youtube.com/channel/<?php echo theme_option('type-youtube') ?>"><i class="fa fa-youtube-square" aria-hidden="true"></i></a></li>
 							<?php endif ?>
 
 							<?php if(theme_option('type-skype')): ?>

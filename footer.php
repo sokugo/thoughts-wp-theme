@@ -93,7 +93,7 @@
 			<?php printf(__('&copy; %d by %s. All rights reserved.', 'thoughtstheme'), date('Y'), get_option('blogname' ) ) ?>
 		</div>
 		<?php _e('Theme:', 'thoughtstheme') ?>
-		<a href="http://pixelrevel.com/themes/wordpress/thoughts">Thoughts v1.0.1</a> by
+		<a href="http://pixelrevel.com/themes/wordpress/thoughts">Thoughts</a> by
 		<a href="http://pixelrevel.com">Pixel Revel</a>
 	</div>
 
